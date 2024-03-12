@@ -5,3 +5,7 @@ const nav = document.querySelector("header .mobile")
 
 botaoAbrir.addEventListener('click', abrirMenu)
 botaoFechar.addEventListener('click', fecharMenu)
+
+function abrirMenu() {
+    body.classList.add("escurecer")
+}
