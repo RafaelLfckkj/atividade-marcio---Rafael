@@ -8,4 +8,5 @@ botaoFechar.addEventListener('click', fecharMenu)
 
 function abrirMenu() {
     body.classList.add("escurecer")
+    nav.classList.add("abrir")
 }
