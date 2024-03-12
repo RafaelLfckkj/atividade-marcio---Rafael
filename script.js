@@ -10,3 +10,7 @@ function abrirMenu() {
     body.classList.add("escurecer")
     nav.classList.add("abrir")
 }
+
+function fecharMenu() {
+    body.classList.remove("escurecer")
+}
